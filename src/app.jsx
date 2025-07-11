@@ -1,7 +1,11 @@
-const currentUrl = window.location.href;
-return (
-  <div>
-    <h1>Hello, React!</h1>
-    <p>URL aplikasi ini: <a href={currentUrl}>{currentUrl}</a></p>
-  </div>
-);
+import React from "react";
+
+function App() {
+  return (
+    <div>
+      <h1>Hello, React!</h1>
+    </div>
+  );
+}
+
+export default App;
