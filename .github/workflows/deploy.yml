@@ -27,5 +27,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          #publish_dir: ./dist # untuk Vite
-           publish_dir: ./build # untuk CRA, ganti baris di atas jika pakai CRA
+          publish_dir: ./dist # untuk Vite
+           #publish_dir: ./build # untuk CRA, ganti baris di atas jika pakai CRA
