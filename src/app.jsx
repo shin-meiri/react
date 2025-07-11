@@ -1,5 +1,5 @@
 import React from "react";
-import MyCard from "MyCard"; // Import komponen baru
+import MyCard from "./MyCard"; // Import komponen baru
 
 function App() {
   return (
