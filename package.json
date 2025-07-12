@@ -1,1 +1,13 @@
-"homepage": "https://shin-meiri.github.io/react"
+{
+  "name": "react-app",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "start": "npx serve public",
+    "build": "echo 'No build step configured.'"
+  }
+}
